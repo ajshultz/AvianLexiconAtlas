@@ -1,0 +1,511 @@
+#NEXUS
+[Cladogram of 249 families of birds. Each family branch determined by a representatie species from the McTavish et al. 2024 phylogeny]
+
+BEGIN TAXA;
+	DIMENSIONS NTAX = 249;
+	TAXLABELS
+		Thraupidae (Tanagers and Allies)
+		Mitrospingidae (Mitrospingid Tanagers)
+		Cardinalidae (Cardinals and Allies)
+		Parulidae (New World Warblers)
+		Icteridae (Troupials and Allies)
+		Teretistridae (Cuban Warblers)
+		Icteriidae (Yellow-breasted Chat)
+		Spindalidae (Spindalises)
+		Nesospingidae (Puerto Rican Tanager)
+		Phaenicophilidae (Hispaniolan Tanagers)
+		Zeledoniidae (Wrenthrush)
+		Calyptophilidae (Chat-Tanagers)
+		Passerellidae (New World Sparrows)
+		Emberizidae (Old World Buntings)
+		Calcariidae (Longspurs and Snow Buntings)
+		Rhodinocichlidae (Thrush-Tanager)
+		Fringillidae (Finches, Euphonias, and Allies)
+		Motacillidae (Wagtails and Pipits)
+		Passeridae (Old World Sparrows)
+		Estrildidae (Waxbills and Allies)
+		Viduidae (Indigobirds)
+		Ploceidae (Weavers and Allies)
+		Urocynchramidae (Przevalski's Pinktail)
+		Prunellidae (Accentors)
+		Peucedramidae (Olive Warbler)
+		Chloropseidae (Leafbirds)
+		Irenidae (Fairy-bluebirds)
+		Nectariniidae (Sunbirds and Spiderhunters)
+		Dicaeidae (Flowerpeckers)
+		Modulatricidae (Dapple-throat and Allies)
+		Promeropidae (Sugarbirds)
+		Muscicapidae (Old World Flycatchers)
+		Turdidae (Thrushes and Allies)
+		Sturnidae (Starlings)
+		Mimidae (Mockingbirds and Thrashers)
+		Buphagidae (Oxpeckers)
+		Cinclidae (Dippers)
+		Elachuridae (Spotted Elachura)
+		Troglodytidae (Wrens)
+		Polioptilidae (Gnatcatchers)
+		Certhiidae (Treecreepers)
+		Sittidae (Nuthatches)
+		Tichodromidae (Wallcreeper)
+		Regulidae (Kinglets)
+		Mohoidae (Hawaiian Honeyeaters)
+		Hypocoliidae (Hypocolius)
+		Hylocitreidae (Hylocitrea)
+		Ptiliogonatidae (Silky-flycatchers)
+		Bombycillidae (Waxwings)
+		Dulidae (Palmchat)
+		Stenostiridae (Fairy Flycatchers)
+		Hyliotidae (Hyliotas)
+		Leiothrichidae (Laughingthrushes and Allies)
+		Pellorneidae (Ground Babblers and Allies)
+		Timaliidae (Tree-Babblers, Scimitar-Babblers, and Allies)
+		Zosteropidae (White-eyes, Yuhinas, and Allies)
+		Sylviidae (Sylviid Warblers, Parrotbills, and Allies)
+		Pycnonotidae (Bulbuls)
+		Phylloscopidae (Leaf Warblers)
+		Cisticolidae (Cisticolas and Allies)
+		Hirundinidae (Swallows)
+		Pnoepygidae (Cupwings)
+		Locustellidae (Grassbirds and Allies)
+		Bernieridae (Malagasy Warblers)
+		Donacobiidae (Donacobius)
+		Acrocephalidae (Reed Warblers and Allies)
+		Scotocercidae (Bush Warblers and Allies)
+		Aegithalidae (Long-tailed Tits)
+		Macrosphenidae (African Warblers)
+		Nicatoridae (Nicators)
+		Alaudidae (Larks)
+		Panuridae (Bearded Reedling)
+		Paridae (Tits, Chickadees, and Titmice)
+		Remizidae (Penduline-Tits)
+		Chaetopidae (Rockjumpers)
+		Picathartidae (Rockfowl)
+		Eupetidae (Rail-babbler)
+		Petroicidae (Australasian Robins)
+		Callaeidae (Wattlebirds)
+		Notiomystidae (Stitchbird)
+		Melanocharitidae (Berrypeckers and Longbills)
+		Cnemophilidae (Satinbirds)
+		Corvidae (Crows, Jays, and Magpies)
+		Laniidae (Shrikes)
+		Platylophidae (Crested Shrikejay)
+		Melampittidae (Melampittas)
+		Monarchidae (Monarch Flycatchers)
+		Paradisaeidae (Birds-of-Paradise)
+		Ifritidae (Ifrita)
+		Corcoracidae (White-winged Chough and Apostlebird)
+		Dicruridae (Drongos)
+		Rhipiduridae (Fantails)
+		Vangidae (Vangas, Helmetshrikes, and Allies)
+		Platysteiridae (Wattle-eyes and Batises)
+		Malaconotidae (Bushshrikes and Allies)
+		Aegithinidae (Ioras)
+		Pityriasidae (Bristlehead)
+		Rhagologidae (Mottled Berryhunter)
+		Artamidae (Woodswallows, Bellmagpies, and Allies)
+		Machaerirhynchidae (Boatbills)
+		Pachycephalidae (Whistlers and Allies)
+		Oriolidae (Old World Orioles)
+		Vireonidae (Vireos, Shrike-Babblers, and Erpornis)
+		Paramythiidae (Tit Berrypecker and Crested Berrypecker)
+		Oreoicidae (Australo-Papuan Bellbirds)
+		Falcunculidae (Shrike-tits)
+		Eulacestomatidae (Ploughbill)
+		Psophodidae (Whipbirds and Wedgebills)
+		Neosittidae (Sittellas)
+		Mohouidae (Whiteheads)
+		Campephagidae (Cuckooshrikes)
+		Cinclosomatidae (Quail-thrushes and Jewel-babblers)
+		Pomatostomidae (Pseudo-Babblers)
+		Orthonychidae (Logrunners)
+		Meliphagidae (Honeyeaters)
+		Acanthizidae (Thornbills and Allies)
+		Pardalotidae (Pardalotes)
+		Dasyornithidae (Bristlebirds)
+		Maluridae (Fairywrens)
+		Ptilonorhynchidae (Bowerbirds)
+		Climacteridae (Australasian Treecreepers)
+		Atrichornithidae (Scrub-birds)
+		Menuridae (Lyrebirds)
+		Furnariidae (Ovenbirds and Woodcreepers)
+		Formicariidae (Antthrushes)
+		Rhinocryptidae (Tapaculos)
+		Grallariidae (Antpittas)
+		Thamnophilidae (Typical Antbirds)
+		Conopophagidae (Gnateaters)
+		Melanopareiidae (Crescentchests)
+		Tyrannidae (Tyrant Flycatchers)
+		Oxyruncidae (Sharpbill, Royal Flycatcher, and Allies)
+		Tityridae (Tityras and Allies)
+		Cotingidae (Cotingas)
+		Pipridae (Manakins)
+		Pittidae (Pittas)
+		Sapayoidae (Sapayoa)
+		Calyptomenidae (African and Green Broadbills)
+		Eurylaimidae (Asian and Grauer's Broadbills)
+		Philepittidae (Asities)
+		Acanthisittidae (New Zealand Wrens)
+		Psittaculidae (Old World Parrots)
+		Psittacidae (New World and African Parrots)
+		Cacatuidae (Cockatoos)
+		Strigopidae (New Zealand Parrots)
+		Falconidae (Falcons and Caracaras)
+		Cariamidae (Seriemas)
+		Picidae (Woodpeckers)
+		Indicatoridae (Honeyguides)
+		Ramphastidae (Toucans)
+		Capitonidae (New World Barbets)
+		Semnornithidae (Toucan-Barbets)
+		Lybiidae (African Barbets)
+		Megalaimidae (Asian Barbets)
+		Bucconidae (Puffbirds)
+		Galbulidae (Jacamars)
+		Alcedinidae (Kingfishers)
+		Momotidae (Motmots)
+		Todidae (Todies)
+		Meropidae (Bee-eaters)
+		Coraciidae (Rollers)
+		Brachypteraciidae (Ground-Rollers)
+		Bucerotidae (Hornbills)
+		Bucorvidae (Ground-Hornbills)
+		Phoeniculidae (Woodhoopoes and Scimitarbills)
+		Upupidae (Hoopoes)
+		Trogonidae (Trogons)
+		Leptosomidae (Cuckoo-roller)
+		Coliidae (Mousebirds)
+		Strigidae (Owls)
+		Tytonidae (Barn-Owls)
+		Accipitridae (Hawks, Eagles, and Kites)
+		Pandionidae (Osprey)
+		Sagittariidae (Secretarybird)
+		Cathartidae (New World Vultures)
+		Ardeidae (Herons, Egrets, and Bitterns)
+		Pelecanidae (Pelicans)
+		Balaenicipitidae (Shoebill)
+		Scopidae (Hamerkop)
+		Threskiornithidae (Ibises and Spoonbills)
+		Phalacrocoracidae (Cormorants and Shags)
+		Anhingidae (Anhingas)
+		Sulidae (Boobies and Gannets)
+		Fregatidae (Frigatebirds)
+		Ciconiidae (Storks)
+		Procellariidae (Shearwaters and Petrels)
+		Hydrobatidae (Northern Storm-Petrels)
+		Oceanitidae (Southern Storm-Petrels)
+		Diomedeidae (Albatrosses)
+		Spheniscidae (Penguins)
+		Gaviidae (Loons)
+		Phaethontidae (Tropicbirds)
+		Rhynochetidae (Kagu)
+		Eurypygidae (Sunbittern)
+		Laridae (Gulls, Terns, and Skimmers)
+		Alcidae (Auks, Murres, and Puffins)
+		Stercorariidae (Skuas and Jaegers)
+		Glareolidae (Pratincoles and Coursers)
+		Dromadidae (Crab-Plover)
+		Turnicidae (Buttonquail)
+		Scolopacidae (Sandpipers and Allies)
+		Jacanidae (Jacanas)
+		Rostratulidae (Painted-Snipes)
+		Thinocoridae (Seedsnipes)
+		Pedionomidae (Plains-wanderer)
+		Charadriidae (Plovers and Lapwings)
+		Haematopodidae (Oystercatchers)
+		Ibidorhynchidae (Ibisbill)
+		Recurvirostridae (Stilts and Avocets)
+		Pluvianidae (Egyptian Plover)
+		Burhinidae (Thick-knees)
+		Chionidae (Sheathbills)
+		Pluvianellidae (Magellanic Plover)
+		Rallidae (Rails, Gallinules, and Coots)
+		Sarothruridae (Flufftails)
+		Heliornithidae (Finfoots)
+		Gruidae (Cranes)
+		Aramidae (Limpkin)
+		Psophiidae (Trumpeters)
+		Opisthocomidae (Hoatzin)
+		Trochilidae (Hummingbirds)
+		Apodidae (Swifts)
+		Hemiprocnidae (Treeswifts)
+		Aegothelidae (Owlet-nightjars)
+		Podargidae (Frogmouths)
+		Nyctibiidae (Potoos)
+		Steatornithidae (Oilbird)
+		Caprimulgidae (Nightjars and Allies)
+		Cuculidae (Cuckoos)
+		Otididae (Bustards)
+		Musophagidae (Turacos)
+		Columbidae (Pigeons and Doves)
+		Pteroclidae (Sandgrouse)
+		Mesitornithidae (Mesites)
+		Podicipedidae (Grebes)
+		Phoenicopteridae (Flamingos)
+		Phasianidae (Pheasants, Grouse, and Allies)
+		Odontophoridae (New World Quail)
+		Numididae (Guineafowl)
+		Cracidae (Guans, Chachalacas, and Curassows)
+		Megapodiidae (Megapodes)
+		Anatidae (Ducks, Geese, and Waterfowl)
+		Anseranatidae (Magpie Goose)
+		Anhimidae (Screamers)
+		Tinamidae (Tinamous)
+		Apterygidae (Kiwis)
+		Casuariidae (Cassowaries and Emu)
+		Rheidae (Rheas)
+		Struthionidae (Ostriches)
+	;
+END;
+BEGIN TREES;
+	TRANSLATE
+		1	Thraupidae (Tanagers and Allies),
+		2	Mitrospingidae (Mitrospingid Tanagers),
+		3	Cardinalidae (Cardinals and Allies),
+		4	Parulidae (New World Warblers),
+		5	Icteridae (Troupials and Allies),
+		6	Teretistridae (Cuban Warblers),
+		7	Icteriidae (Yellow-breasted Chat),
+		8	Spindalidae (Spindalises),
+		9	Nesospingidae (Puerto Rican Tanager),
+		10	Phaenicophilidae (Hispaniolan Tanagers),
+		11	Zeledoniidae (Wrenthrush),
+		12	Calyptophilidae (Chat-Tanagers),
+		13	Passerellidae (New World Sparrows),
+		14	Emberizidae (Old World Buntings),
+		15	Calcariidae (Longspurs and Snow Buntings),
+		16	Rhodinocichlidae (Thrush-Tanager),
+		17	Fringillidae (Finches, Euphonias, and Allies),
+		18	Motacillidae (Wagtails and Pipits),
+		19	Passeridae (Old World Sparrows),
+		20	Estrildidae (Waxbills and Allies),
+		21	Viduidae (Indigobirds),
+		22	Ploceidae (Weavers and Allies),
+		23	Urocynchramidae (Przevalski's Pinktail),
+		24	Prunellidae (Accentors),
+		25	Peucedramidae (Olive Warbler),
+		26	Chloropseidae (Leafbirds),
+		27	Irenidae (Fairy-bluebirds),
+		28	Nectariniidae (Sunbirds and Spiderhunters),
+		29	Dicaeidae (Flowerpeckers),
+		30	Modulatricidae (Dapple-throat and Allies),
+		31	Promeropidae (Sugarbirds),
+		32	Muscicapidae (Old World Flycatchers),
+		33	Turdidae (Thrushes and Allies),
+		34	Sturnidae (Starlings),
+		35	Mimidae (Mockingbirds and Thrashers),
+		36	Buphagidae (Oxpeckers),
+		37	Cinclidae (Dippers),
+		38	Elachuridae (Spotted Elachura),
+		39	Troglodytidae (Wrens),
+		40	Polioptilidae (Gnatcatchers),
+		41	Certhiidae (Treecreepers),
+		42	Sittidae (Nuthatches),
+		43	Tichodromidae (Wallcreeper),
+		44	Regulidae (Kinglets),
+		45	Mohoidae (Hawaiian Honeyeaters),
+		46	Hypocoliidae (Hypocolius),
+		47	Hylocitreidae (Hylocitrea),
+		48	Ptiliogonatidae (Silky-flycatchers),
+		49	Bombycillidae (Waxwings),
+		50	Dulidae (Palmchat),
+		51	Stenostiridae (Fairy Flycatchers),
+		52	Hyliotidae (Hyliotas),
+		53	Leiothrichidae (Laughingthrushes and Allies),
+		54	Pellorneidae (Ground Babblers and Allies),
+		55	Timaliidae (Tree-Babblers, Scimitar-Babblers, and Allies),
+		56	Zosteropidae (White-eyes, Yuhinas, and Allies),
+		57	Sylviidae (Sylviid Warblers, Parrotbills, and Allies),
+		58	Pycnonotidae (Bulbuls),
+		59	Phylloscopidae (Leaf Warblers),
+		60	Cisticolidae (Cisticolas and Allies),
+		61	Hirundinidae (Swallows),
+		62	Pnoepygidae (Cupwings),
+		63	Locustellidae (Grassbirds and Allies),
+		64	Bernieridae (Malagasy Warblers),
+		65	Donacobiidae (Donacobius),
+		66	Acrocephalidae (Reed Warblers and Allies),
+		67	Scotocercidae (Bush Warblers and Allies),
+		68	Aegithalidae (Long-tailed Tits),
+		69	Macrosphenidae (African Warblers),
+		70	Nicatoridae (Nicators),
+		71	Alaudidae (Larks),
+		72	Panuridae (Bearded Reedling),
+		73	Paridae (Tits, Chickadees, and Titmice),
+		74	Remizidae (Penduline-Tits),
+		75	Chaetopidae (Rockjumpers),
+		76	Picathartidae (Rockfowl),
+		77	Eupetidae (Rail-babbler),
+		78	Petroicidae (Australasian Robins),
+		79	Callaeidae (Wattlebirds),
+		80	Notiomystidae (Stitchbird),
+		81	Melanocharitidae (Berrypeckers and Longbills),
+		82	Cnemophilidae (Satinbirds),
+		83	Corvidae (Crows, Jays, and Magpies),
+		84	Laniidae (Shrikes),
+		85	Platylophidae (Crested Shrikejay),
+		86	Melampittidae (Melampittas),
+		87	Monarchidae (Monarch Flycatchers),
+		88	Paradisaeidae (Birds-of-Paradise),
+		89	Ifritidae (Ifrita),
+		90	Corcoracidae (White-winged Chough and Apostlebird),
+		91	Dicruridae (Drongos),
+		92	Rhipiduridae (Fantails),
+		93	Vangidae (Vangas, Helmetshrikes, and Allies),
+		94	Platysteiridae (Wattle-eyes and Batises),
+		95	Malaconotidae (Bushshrikes and Allies),
+		96	Aegithinidae (Ioras),
+		97	Pityriasidae (Bristlehead),
+		98	Rhagologidae (Mottled Berryhunter),
+		99	Artamidae (Woodswallows, Bellmagpies, and Allies),
+		100	Machaerirhynchidae (Boatbills),
+		101	Pachycephalidae (Whistlers and Allies),
+		102	Oriolidae (Old World Orioles),
+		103	Vireonidae (Vireos, Shrike-Babblers, and Erpornis),
+		104	Paramythiidae (Tit Berrypecker and Crested Berrypecker),
+		105	Oreoicidae (Australo-Papuan Bellbirds),
+		106	Falcunculidae (Shrike-tits),
+		107	Eulacestomatidae (Ploughbill),
+		108	Psophodidae (Whipbirds and Wedgebills),
+		109	Neosittidae (Sittellas),
+		110	Mohouidae (Whiteheads),
+		111	Campephagidae (Cuckooshrikes),
+		112	Cinclosomatidae (Quail-thrushes and Jewel-babblers),
+		113	Pomatostomidae (Pseudo-Babblers),
+		114	Orthonychidae (Logrunners),
+		115	Meliphagidae (Honeyeaters),
+		116	Acanthizidae (Thornbills and Allies),
+		117	Pardalotidae (Pardalotes),
+		118	Dasyornithidae (Bristlebirds),
+		119	Maluridae (Fairywrens),
+		120	Ptilonorhynchidae (Bowerbirds),
+		121	Climacteridae (Australasian Treecreepers),
+		122	Atrichornithidae (Scrub-birds),
+		123	Menuridae (Lyrebirds),
+		124	Furnariidae (Ovenbirds and Woodcreepers),
+		125	Formicariidae (Antthrushes),
+		126	Rhinocryptidae (Tapaculos),
+		127	Grallariidae (Antpittas),
+		128	Thamnophilidae (Typical Antbirds),
+		129	Conopophagidae (Gnateaters),
+		130	Melanopareiidae (Crescentchests),
+		131	Tyrannidae (Tyrant Flycatchers),
+		132	Oxyruncidae (Sharpbill, Royal Flycatcher, and Allies),
+		133	Tityridae (Tityras and Allies),
+		134	Cotingidae (Cotingas),
+		135	Pipridae (Manakins),
+		136	Pittidae (Pittas),
+		137	Sapayoidae (Sapayoa),
+		138	Calyptomenidae (African and Green Broadbills),
+		139	Eurylaimidae (Asian and Grauer's Broadbills),
+		140	Philepittidae (Asities),
+		141	Acanthisittidae (New Zealand Wrens),
+		142	Psittaculidae (Old World Parrots),
+		143	Psittacidae (New World and African Parrots),
+		144	Cacatuidae (Cockatoos),
+		145	Strigopidae (New Zealand Parrots),
+		146	Falconidae (Falcons and Caracaras),
+		147	Cariamidae (Seriemas),
+		148	Picidae (Woodpeckers),
+		149	Indicatoridae (Honeyguides),
+		150	Ramphastidae (Toucans),
+		151	Capitonidae (New World Barbets),
+		152	Semnornithidae (Toucan-Barbets),
+		153	Lybiidae (African Barbets),
+		154	Megalaimidae (Asian Barbets),
+		155	Bucconidae (Puffbirds),
+		156	Galbulidae (Jacamars),
+		157	Alcedinidae (Kingfishers),
+		158	Momotidae (Motmots),
+		159	Todidae (Todies),
+		160	Meropidae (Bee-eaters),
+		161	Coraciidae (Rollers),
+		162	Brachypteraciidae (Ground-Rollers),
+		163	Bucerotidae (Hornbills),
+		164	Bucorvidae (Ground-Hornbills),
+		165	Phoeniculidae (Woodhoopoes and Scimitarbills),
+		166	Upupidae (Hoopoes),
+		167	Trogonidae (Trogons),
+		168	Leptosomidae (Cuckoo-roller),
+		169	Coliidae (Mousebirds),
+		170	Strigidae (Owls),
+		171	Tytonidae (Barn-Owls),
+		172	Accipitridae (Hawks, Eagles, and Kites),
+		173	Pandionidae (Osprey),
+		174	Sagittariidae (Secretarybird),
+		175	Cathartidae (New World Vultures),
+		176	Ardeidae (Herons, Egrets, and Bitterns),
+		177	Pelecanidae (Pelicans),
+		178	Balaenicipitidae (Shoebill),
+		179	Scopidae (Hamerkop),
+		180	Threskiornithidae (Ibises and Spoonbills),
+		181	Phalacrocoracidae (Cormorants and Shags),
+		182	Anhingidae (Anhingas),
+		183	Sulidae (Boobies and Gannets),
+		184	Fregatidae (Frigatebirds),
+		185	Ciconiidae (Storks),
+		186	Procellariidae (Shearwaters and Petrels),
+		187	Hydrobatidae (Northern Storm-Petrels),
+		188	Oceanitidae (Southern Storm-Petrels),
+		189	Diomedeidae (Albatrosses),
+		190	Spheniscidae (Penguins),
+		191	Gaviidae (Loons),
+		192	Phaethontidae (Tropicbirds),
+		193	Rhynochetidae (Kagu),
+		194	Eurypygidae (Sunbittern),
+		195	Laridae (Gulls, Terns, and Skimmers),
+		196	Alcidae (Auks, Murres, and Puffins),
+		197	Stercorariidae (Skuas and Jaegers),
+		198	Glareolidae (Pratincoles and Coursers),
+		199	Dromadidae (Crab-Plover),
+		200	Turnicidae (Buttonquail),
+		201	Scolopacidae (Sandpipers and Allies),
+		202	Jacanidae (Jacanas),
+		203	Rostratulidae (Painted-Snipes),
+		204	Thinocoridae (Seedsnipes),
+		205	Pedionomidae (Plains-wanderer),
+		206	Charadriidae (Plovers and Lapwings),
+		207	Haematopodidae (Oystercatchers),
+		208	Ibidorhynchidae (Ibisbill),
+		209	Recurvirostridae (Stilts and Avocets),
+		210	Pluvianidae (Egyptian Plover),
+		211	Burhinidae (Thick-knees),
+		212	Chionidae (Sheathbills),
+		213	Pluvianellidae (Magellanic Plover),
+		214	Rallidae (Rails, Gallinules, and Coots),
+		215	Sarothruridae (Flufftails),
+		216	Heliornithidae (Finfoots),
+		217	Gruidae (Cranes),
+		218	Aramidae (Limpkin),
+		219	Psophiidae (Trumpeters),
+		220	Opisthocomidae (Hoatzin),
+		221	Trochilidae (Hummingbirds),
+		222	Apodidae (Swifts),
+		223	Hemiprocnidae (Treeswifts),
+		224	Aegothelidae (Owlet-nightjars),
+		225	Podargidae (Frogmouths),
+		226	Nyctibiidae (Potoos),
+		227	Steatornithidae (Oilbird),
+		228	Caprimulgidae (Nightjars and Allies),
+		229	Cuculidae (Cuckoos),
+		230	Otididae (Bustards),
+		231	Musophagidae (Turacos),
+		232	Columbidae (Pigeons and Doves),
+		233	Pteroclidae (Sandgrouse),
+		234	Mesitornithidae (Mesites),
+		235	Podicipedidae (Grebes),
+		236	Phoenicopteridae (Flamingos),
+		237	Phasianidae (Pheasants, Grouse, and Allies),
+		238	Odontophoridae (New World Quail),
+		239	Numididae (Guineafowl),
+		240	Cracidae (Guans, Chachalacas, and Curassows),
+		241	Megapodiidae (Megapodes),
+		242	Anatidae (Ducks, Geese, and Waterfowl),
+		243	Anseranatidae (Magpie Goose),
+		244	Anhimidae (Screamers),
+		245	Tinamidae (Tinamous),
+		246	Apterygidae (Kiwis),
+		247	Casuariidae (Cassowaries and Emu),
+		248	Rheidae (Rheas),
+		249	Struthionidae (Ostriches)
+	;
+	TREE * UNTITLED = [&R] (((((((((((((((((((((((((((((((((((((1:11.984335,2:11.984335)mrcaott4088ott365552:2.684538,3:14.668873)mrcaott4088ott23955:0.228879,(((4:11.819274,((5:8.734922,6:8.734922)mrcaott29804ott449562:0.545933,7:9.280855)mrcaott29804ott998133:2.538419)mrcaott5620ott29804:1.177622,((((8:9.838512,9:9.838512)mrcaott254662ott884090:1.091871,10:10.930383)mrcaott254662ott309808:1.267155,11:12.197538)mrcaott254662ott449580:0.304883,12:12.502421)mrcaott254662ott454127:0.494475)mrcaott5620ott125177:0.950428,(13:12.246008,14:12.246008)mrcaott5616ott28339:1.701316)mrcaott5616ott5620:0.950428)mrcaott4088ott5616:0.228879,15:15.126631)mrcaott4088ott324662:0.515318,16:15.641949)mrcaott4088ott138768:3.609046,17:19.250995)mrcaott4088ott6366:0.829603,(18:18.646272,19:18.646272)mrcaott8371ott9416:1.434326)mrcaott4088ott8371:0.829606,(((20:18.04864,21:18.04864)mrcaott4083ott52094:0.24798,22:18.29662)mrcaott4083ott11712:1.306791,23:19.603411)mrcaott4083ott469177:1.306793)mrcaott4083ott4088:0.829604,24:21.739808)mrcaott4083ott95302:0.752438,25:22.492246)mrcaott4083ott370807:1.084402,(26:22.759181,27:22.759181)ott647192:0.817467)mrcaott4083ott35042:0.817467,(28:23.324855,29:23.324855)mrcaott3364ott172530:1.06926)mrcaott3364ott4083:1.073347,(30:22.435752,31:22.435752)mrcaott310375ott638686:3.03171)mrcaott3364ott310375:1.260306,((((((32:17.711149,33:17.711149)mrcaott1566ott19467:2.091095,((34:14.07271,35:14.07271)mrcaott2175ott259082:0.982449,36:15.055159)mrcaott2175ott968664:4.747085)mrcaott1566ott2175:0.767052,37:20.569296)mrcaott1566ott496009:4.122744,38:24.69204)mrcaott1566ott3598440:1.303679,(((((39:14.520269,40:14.520269)mrcaott246ott18313:6.071003,41:20.591272)mrcaott246ott157232:1.215464,42:21.80673605)mrcaott246ott25638:1.215465,43:23.022201)mrcaott246ott452744:2.54311,44:25.565311)mrcaott246ott3599436:0.430408)mrcaott246ott1566:0.366024,(((((45:17.47673102,46:17.476731)mrcaott5934ott294597:0.778406,47:18.255137)mrcaott5934ott352344:0.963114,48:19.218251)mrcaott5934ott33427:0.318754,49:19.537005)mrcaott5934ott496029:1.011402,50:20.548407)mrcaott5934ott33425:5.813336)mrcaott246ott5934:0.366025)mrcaott246ott3364:0.435488,(51:25.534084,52:25.534084)mrcaott72472ott3599401:1.629172)mrcaott246ott72472:0.435488,((((((((((((53:14.835553,54:14.835553)mrcaott7487ott26168:1.076472,55:15.912025)mrcaott7487ott19368:0.964268,56:16.876293)mrcaott7487ott19370:1.734186,57:18.610479)mrcaott1488ott7487:2.687037,58:21.297516)mrcaott1488ott4470:0.635086,59:21.932602)mrcaott1488ott45321:0.635086,(60:22.132669,(61:21.69765,62:21.69765)mrcaott16185ott286599:0.435019)mrcaott16185ott17016:0.435019)mrcaott1488ott16185:0.435019,(((63:19.883884,(64:18.744325,65:18.744325)mrcaott177058ott381521:1.139559)mrcaott107476ott177058:2.269875,66:22.15375904)mrcaott44217ott107476:0.424471,(67:19.289032,68:19.289032)mrcaott5805ott45508:3.289198)mrcaott5805ott44217:0.424477)mrcaott1488ott5805:0.520353,69:23.52306)mrcaott1488ott107463:0.649273,70:24.172333)mrcaott1488ott284404:2.576704,(71:21.71162,72:21.71162)mrcaott63797ott4131609:5.037417)mrcaott1488ott63797:0.424854,(73:21.14612,74:21.14612)mrcaott2375ott73144:6.027771)mrcaott1488ott2375:0.424853)mrcaott246ott1488:0.424854,((75:19.957846,76:19.957846)ott176465:1.336126,77:21.293972)mrcaott193904ott360543:6.729626)mrcaott246ott193904:0.424854,78:28.448452)mrcaott246ott10351:0.328346,(79:25.875097,80:25.875097)mrcaott22325ott1097188:2.901701)mrcaott246ott22325:0.957401,(81:24.31659,82:24.31659)mrcaott176461ott310390:5.417609)mrcaott246ott176461:0.738253,(((((((((((83:14.92963,(84:12.796825,85:12.796825)mrcaott11462ott106246:2.132805)mrcaott4820ott11462:2.194429,86:17.124059)mrcaott4820ott749725:0.349194,87:17.473253)mrcaott4820ott20996:0.349194,((88:16.57315,89:16.57315)mrcaott23690ott242575:0.624649,90:17.197799)mrcaott23690ott520286:0.624648)mrcaott4820ott23690:0.643641,91:18.46608812)mrcaott4820ott58860:0.468081,92:18.934169)mrcaott4820ott20989:3.527981,(((((93:16.207994,94:16.207994)mrcaott21003ott252044:1.026806,(95:16.16069,(96:15.276863,97:15.276863)mrcaott639780ott1054561:0.883827)mrcaott20998ott639780:1.07411)mrcaott20998ott21003:0.910761,98:18.145561)mrcaott20998ott226273:0.690279,99:18.83584)mrcaott20998ott31161:0.424618,100:19.260458)mrcaott20998ott523967:3.201692)mrcaott4820ott20998:0.383627,(((((101:20.12559,102:20.12559)mrcaott63086ott89237:1.067666,(103:20.285776,104:20.285776)mrcaott27870ott875031:0.90748)mrcaott27870ott63086:0.401003,(105:19.118796,106:19.118796)mrcaott89244ott965222:2.475463)mrcaott27870ott89244:0.30068,107:21.894939)mrcaott27870ott663331:0.3166,108:22.211539)mrcaott17162ott27870:0.634238)mrcaott4820ott17162:0.313614,(109:20.116162,110:20.116162)mrcaott379708ott409116:3.043229)mrcaott4820ott379708:0.403454,111:23.562845)mrcaott4820ott75981:2.009075,112:25.57192)mrcaott4820ott294599:4.900532)mrcaott246ott4820:0.656158,(113:29.213824,114:29.213824)mrcaott96288ott191995:1.914786)mrcaott246ott96288:4.664532,(((115:23.524344,(116:20.452326,117:20.452326)mrcaott32480ott45239:3.072018)mrcaott5929ott32480:1.194191,118:24.718535)mrcaott5929ott196938:3.629,119:28.347535)mrcaott5929ott35023:7.445607)mrcaott246ott5929:2.038902,(120:33.029521,121:33.029521)mrcaott44866ott308793:4.802523)mrcaott246ott44866:2.836895,(122:23.805851,123:23.80585106)ott73954:16.863088)mrcaott246ott428578:8.796623,((((((124:24.354778,125:24.354778)mrcaott3212ott227774:6.509529,126:30.864307)mrcaott3212ott12994:1.137661,127:32.001968)mrcaott3212ott32482:1.632092,((128:25.238857,129:25.238857)mrcaott27869ott45219:6.973965,130:32.212822)mrcaott27869ott77826:1.421238)mrcaott3212ott27869:6.109066,((((131:22.314221,132:22.314221)mrcaott8441ott41222:6.444305,133:28.758526)mrcaott8441ott232053:0.58787,134:29.346396)mrcaott8441ott73040:1.063185,135:30.409581)mrcaott8441ott25827:9.333545)mrcaott3212ott8441:4.554333,(((136:32.951031,137:32.951031)mrcaott33874ott395861:0.486027,138:33.437058)mrcaott33874ott50165:1.242176,(139:20.48926,140:20.48926)mrcaott184248ott540005:14.189974)mrcaott33874ott184248:9.618225)mrcaott3212ott33874:5.168103)mrcaott246ott3212:1.933773,141:51.399335)ott1041547:8.722824,(((142:24.745208,143:24.745208)mrcaott7113ott33330:3.12413,144:27.869338)mrcaott7113ott58938:6.655596,145:34.524934)ott1020133:25.597225)mrcaott246ott7113:1.987801,146:62.10996)mrcaott246ott47588:5.691719,147:67.801679)mrcaott246ott3600042:0.223221,((((((((((148:41.650958,149:41.650958)mrcaott12995ott130073:5.067944,((((150:32.409737,151:32.409737)mrcaott130076ott370836:3.240974,152:35.650711)mrcaott130076ott542000:3.240974,153:38.891685)mrcaott130076ott153261:3.33873,154:42.230415)mrcaott130076ott291637:4.488487)ott472432:11.781097,(155:47.33458806,156:47.33458818)ott484893:11.165411)mrcaott12995ott53912:2.202641,(((157:52.793836,158:52.793836)mrcaott26078ott88365:2.084343,159:54.878179)mrcaott26078ott284298:3.992775,(160:55.181215,(161:42.571698,162:42.571698)mrcaott244691ott372535:12.609517)mrcaott150514ott244691:3.689739)mrcaott26078ott150514:1.831686)mrcaott12995ott26078:2.283292,((163:34.086465,164:34.086465)ott341907:24.468277,(165:48.286883,166:48.286883)ott815967:10.267859)mrcaott6895ott33689:4.43119)mrcaott6895ott12995:0.632244,167:63.618176)mrcaott6895ott95396:1.356472,168:64.974648)mrcaott6895ott897867:1.525352,169:66.5)mrcaott6895ott36453:0.095902,(170:55.85999009,171:55.85999)ott1028829:10.735912)mrcaott2907ott6895:1.355166,(((172:50.340942,173:50.340942)mrcaott1858ott806938:8.91441,174:59.255352)mrcaott1858ott1036186:5.863174,175:65.118526)ott4947835:2.832542)mrcaott1858ott2907:0.073832)mrcaott246ott1858:1.451782,(((((((176:60.154207,((177:53.972975,178:53.972975)mrcaott316989ott464697:0.092346,179:54.065321)mrcaott316989ott464704:6.088886)mrcaott55044ott316989:1.575382,180:61.729589)mrcaott55044ott192642:0.066259,(((181:51.81,182:51.81)mrcaott9830ott443639:0.067284,183:51.877284)mrcaott9830ott117726:9.15522,184:61.032504)mrcaott9830ott285638:0.763344)mrcaott9830ott55044:1.73822,185:63.53406819)mrcaott9830ott324158:0.106351,((((186:55.981116,187:55.981116)mrcaott31011ott65050:0.070028,188:56.051144)mrcaott18206ott31011:0.085155,189:56.136299)ott452461:5.959709,190:62.096008)mrcaott9050ott60413:1.544411)mrcaott9050ott9830:0.523521,191:64.16394)mrcaott9050ott90560:5.20623,(192:67.344078,(193:34.682518,194:34.682518)mrcaott86672ott86680:32.66156)mrcaott86672ott330009:2.026092)mrcaott9050ott86672:0.106512)mrcaott246ott9050:0.510925,(((((((195:42.141698,(196:37.45928,197:37.45928)mrcaott147723ott219032:4.682418)mrcaott7639ott147723:5.903965,(198:47.935677,199:47.935677)mrcaott57833ott383929:0.109986)mrcaott7639ott57833:8.602345,200:56.648008)mrcaott7639ott86671:3.081203,(201:49.037866,((202:37.971788,203:37.971788)mrcaott5272ott311533:3.394226,(204:32.095509,205:32.095509)mrcaott163953ott417274:9.270505)mrcaott5272ott163953:7.671852)mrcaott5272ott24121:10.691345)mrcaott5272ott7639:4.628563,(((206:50.880912,((207:38.833733,208:38.833733)mrcaott80080ott651064:6.472289,209:45.306022)mrcaott80080ott293656:5.57489)mrcaott57823ott80080:5.57489,210:56.455802)mrcaott57823ott242771:5.574893,(211:54.276859,(212:36.184574,213:36.184574)mrcaott57827ott227451:18.092285)mrcaott57827ott57829:7.753836)mrcaott57823ott57827:2.327079)mrcaott5272ott57823:5.151077,((214:50.38829206,(215:46.643697,216:46.643697)mrcaott399792ott440618:3.744595)mrcaott7145ott399792:16.11171,((217:41.742924,218:41.742924)mrcaott257921ott1095362:19.588035,219:61.330959)mrcaott242768ott257921:5.169043)mrcaott7145ott242768:3.008849)mrcaott5272ott7145:0.402145,220:69.910996)mrcaott5272ott928360:0.076611)mrcaott246ott5272:0.828621,((((((221:60.659161,(222:51.000003,223:51.000003)ott609796:9.659158002)ott609798:5.840839,224:66.5)mrcaott5481ott68112:1.638069,225:68.138069)mrcaott5481ott275128:2.040733,(226:66.5,227:66.5)mrcaott178241ott701548:3.678802002)mrcaott5481ott178241:0.039467,228:70.218269)ott7068066:0.5644069981,(229:69.671867,(230:66.599998,231:66.599998)mrcaott5021ott198671:3.071869)mrcaott5021ott75792:1.110809)mrcaott5021ott5481:0.033552)mrcaott246ott5021:1.409874,((232:60.489277,(233:58.24895505,234:58.248955)mrcaott57819ott582941:2.240322)mrcaott17146ott57819:1.110725,(235:48.440295,236:48.440295)mrcaott92263ott472423:13.159707)mrcaott17146ott92263:10.6261)mrcaott246ott17146:31.173988,(((((237:50.520435,238:50.520435)mrcaott4765ott151684:2.719139,239:53.239574)mrcaott4765ott104461:17.988911,240:71.228485)mrcaott4765ott75785:5.82077,241:77.049255)ott837585:10.230415,((242:71.533826,243:71.533826)mrcaott30843ott714464:4.871826,244:76.405652)ott241841:10.874018)ott5839486:16.12042)ott241846:26.599907,((245:104.3852021,((246:99.61680706,247:99.616807)mrcaott84218ott402459:1.168938,248:100.785745)mrcaott84218ott857860:3.599457)mrcaott84218ott167137:5.382683,249:109.767885)ott81443:20.232112)ott81461:1;
+END;
